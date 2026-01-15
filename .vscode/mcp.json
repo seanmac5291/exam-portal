@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "ffoa-systems": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/../../agency-mcp/server.js"
+      ],
+      "env": {
+        "AGENCY_PACK": "regulator",
+        "AGENCY_STATE": "${workspaceFolder}/../../.demo-state/regulator-state.json",
+        "AGENCY_ANCHOR_FILE": "${workspaceFolder}/../../.demo-state/anchor-exam-portal"
+      }
+    }
+  }
+}
