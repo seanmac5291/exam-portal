@@ -1,0 +1,10 @@
+{
+  "name": "exam-portal",
+  "version": "1.4.0",
+  "private": true,
+  "description": "FFOA Examiner Workpaper Portal. Fictional demo app with intentionally vulnerable code for GitHub Advanced Security demos. Do not deploy.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js", "test": "node --test" },
+  "dependencies": { "express": "^4.21.2", "pg": "^8.13.1" }
+}
